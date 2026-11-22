@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1424" height="1440" viewBox="0 0 1424 1440" role="img" aria-labelledby="title description" xml:lang="ru">
+  <title id="title">Раскладки геймпада</title>
+  <desc id="description">Четыре схемы Oh My Gamepad. Английская, русская и символьная раскладки состоят из шести групп и шести символов в каждой. Большой круг соответствует левому стику, маленькие круги — правому. При удержании B любой стик выбирает быстрый знак. Сектора начинаются сверху и идут по часовой стрелке.</desc>
+  <style>
+    svg { background: #edf2f8; font-family: "Inter", "Arial", "DejaVu Sans", sans-serif; }
+    .sheet { fill: #edf2f8; }
+    .page-title, .card-title, .character, .quick-character, .space { fill: #14273e; }
+    .page-title { font-size: 46px; font-weight: 750; letter-spacing: -1.15px; }
+    .page-note { font-size: 19px; fill: #3d5067; }
+    .card { fill: #fcfdff; stroke: #cdd8e6; stroke-width: 1.4; }
+    .card-title { font-size: 31px; font-weight: 730; letter-spacing: -0.55px; }
+    .card-detail { font-size: 16px; fill: #4c6079; }
+    .badge { fill: #eaf0f8; stroke: #d4dfed; }
+    .badge-label { font-size: 13px; font-weight: 700; fill: #314965; letter-spacing: .45px; }
+    .major-sector { stroke: #a4b5c9; stroke-width: 1.2; }
+    .major-outline { fill: none; stroke: #5b728d; stroke-width: 2.3; }
+    .minor-sector { stroke: #aebdd1; stroke-width: 1; }
+    .minor-outline { fill: none; stroke: #667f9c; stroke-width: 1.7; }
+    .minor-hub { fill: #edf3fb; stroke: #9bafc6; stroke-width: 1; }
+    .minor-top { fill: #456684; }
+    .right-hub { font-size: 10px; font-weight: 680; fill: #466581; }
+    .top { fill: #305778; }
+    .character, .quick-character, .space {
+      font-weight: 680; font-family: "DejaVu Sans Mono", "SF Mono", "Menlo", "Consolas", monospace;
+    }
+    .character { font-size: 26px; }
+    .quick-character { font-size: 55px; }
+    .quick-label { fill: #3d5067; font-size: 16px; }
+    .space { font-family: "Inter", "Arial", "DejaVu Sans", sans-serif; font-size: 32px; }
+    .major-hub { fill: #fbfdff; stroke: #7993ae; stroke-width: 1.6; }
+    .hub-label { font-size: 26px; font-weight: 740; fill: #29455f; }
+    .hub-note { font-size: 12px; fill: #46617d; }
+    .quick-ring { fill: none; stroke: #6b88a4; stroke-width: 1.25; stroke-dasharray: 3 7; opacity: .66; }
+</style>
+  <rect class="sheet" width="1424" height="1440" />
+  <text class="page-title" x="42" y="66">Раскладки геймпада</text>
+  <text class="page-note" x="44" y="106">L — выбор группы,  R — выбор символа.  Первый сектор сверху, остальные по часовой стрелке.</text>
+  <text class="page-note" x="44" y="132">LB — EN → RU → SYMBOLS → EN.  Крестовина — курсор.  X — Backspace.</text>
+  <g data-layout="en">
+    <rect class="card" x="42" y="146" width="657" height="620" rx="28" />
+    <text class="card-title" x="73" y="195">Английская</text>
+    <rect class="badge" x="536" y="173" width="134" height="37" rx="18.5" />
+    <text class="badge-label" dominant-baseline="central" x="603" y="192" text-anchor="middle">EN</text>
+    <path class="major-sector" d="M 370.5 499 L 253.5 296.35 A 234 234 0 0 1 487.5 296.35 Z" fill="#e4efff" />
+    <path class="major-sector" d="M 370.5 499 L 487.5 296.35 A 234 234 0 0 1 604.5 499 Z" fill="#e0f3ed" />
+    <path class="major-sector" d="M 370.5 499 L 604.5 499 A 234 234 0 0 1 487.5 701.65 Z" fill="#ededff" />
+    <path class="major-sector" d="M 370.5 499 L 487.5 701.65 A 234 234 0 0 1 253.5 701.65 Z" fill="#fbefdb" />
+    <path class="major-sector" d="M 370.5 499 L 253.5 701.65 A 234 234 0 0 1 136.5 499 Z" fill="#f6eaf5" />
+    <path class="major-sector" d="M 370.5 499 L 136.5 499 A 234 234 0 0 1 253.5 296.35 Z" fill="#e3f2f7" />
+    <circle class="major-outline" cx="370.5" cy="499" r="234" />
+    <path class="top" d="M 370.5 262 L 364.74 254 L 376.26 254 Z" />
+    <g data-group="1">
+      <title>Группа 1 · u, w, b, y, f, o</title>
+      <path class="minor-sector" d="M 370.5 348 L 336 288.244 A 69 69 0 0 1 405 288.244 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 348 L 405 288.244 A 69 69 0 0 1 439.5 348 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 348 L 439.5 348 A 69 69 0 0 1 405 407.756 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 348 L 405 407.756 A 69 69 0 0 1 336 407.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 348 L 336 407.756 A 69 69 0 0 1 301.5 348 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 348 L 301.5 348 A 69 69 0 0 1 336 288.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="370.5" cy="348" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="u" x="370.5" y="303.5" text-anchor="middle">u</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="w" x="409.038" y="325.75" text-anchor="middle">w</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="b" x="409.038" y="370.25" text-anchor="middle">b</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="y" x="370.5" y="392.5" text-anchor="middle">y</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="f" x="331.962" y="370.25" text-anchor="middle">f</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="o" x="331.962" y="325.75" text-anchor="middle">o</text>
+      <circle class="minor-hub" cx="370.5" cy="348" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="370.5" y="348" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="370.5" cy="287" r="2.5" />
+    </g>
+    <g data-group="2">
+      <title>Группа 2 · t, h, e, s, i, n</title>
+      <path class="minor-sector" d="M 501.27 423.5 L 466.77 363.744 A 69 69 0 0 1 535.77 363.744 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 423.5 L 535.77 363.744 A 69 69 0 0 1 570.27 423.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 423.5 L 570.27 423.5 A 69 69 0 0 1 535.77 483.256 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 423.5 L 535.77 483.256 A 69 69 0 0 1 466.77 483.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 423.5 L 466.77 483.256 A 69 69 0 0 1 432.27 423.5 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 423.5 L 432.27 423.5 A 69 69 0 0 1 466.77 363.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="501.27" cy="423.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="t" x="501.27" y="379" text-anchor="middle">t</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="h" x="539.808" y="401.25" text-anchor="middle">h</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="e" x="539.808" y="445.75" text-anchor="middle">e</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="s" x="501.27" y="468" text-anchor="middle">s</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="i" x="462.732" y="445.75" text-anchor="middle">i</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="n" x="462.732" y="401.25" text-anchor="middle">n</text>
+      <circle class="minor-hub" cx="501.27" cy="423.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="501.27" y="423.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="501.27" cy="362.5" r="2.5" />
+    </g>
+    <g data-group="3">
+      <title>Группа 3 · c, a, r, p, k, d</title>
+      <path class="minor-sector" d="M 501.27 574.5 L 466.77 514.744 A 69 69 0 0 1 535.77 514.744 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 574.5 L 535.77 514.744 A 69 69 0 0 1 570.27 574.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 574.5 L 570.27 574.5 A 69 69 0 0 1 535.77 634.256 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 574.5 L 535.77 634.256 A 69 69 0 0 1 466.77 634.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 574.5 L 466.77 634.256 A 69 69 0 0 1 432.27 574.5 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 574.5 L 432.27 574.5 A 69 69 0 0 1 466.77 514.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="501.27" cy="574.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="c" x="501.27" y="530" text-anchor="middle">c</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="a" x="539.808" y="552.25" text-anchor="middle">a</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="r" x="539.808" y="596.75" text-anchor="middle">r</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="p" x="501.27" y="619" text-anchor="middle">p</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="k" x="462.732" y="596.75" text-anchor="middle">k</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="d" x="462.732" y="552.25" text-anchor="middle">d</text>
+      <circle class="minor-hub" cx="501.27" cy="574.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="501.27" y="574.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="501.27" cy="513.5" r="2.5" />
+    </g>
+    <g data-group="4">
+      <title>Группа 4 · s, t, o, l, v, e</title>
+      <path class="minor-sector" d="M 370.5 650 L 336 590.244 A 69 69 0 0 1 405 590.244 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 650 L 405 590.244 A 69 69 0 0 1 439.5 650 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 650 L 439.5 650 A 69 69 0 0 1 405 709.756 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 650 L 405 709.756 A 69 69 0 0 1 336 709.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 650 L 336 709.756 A 69 69 0 0 1 301.5 650 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 650 L 301.5 650 A 69 69 0 0 1 336 590.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="370.5" cy="650" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="s" x="370.5" y="605.5" text-anchor="middle">s</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="t" x="409.038" y="627.75" text-anchor="middle">t</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="o" x="409.038" y="672.25" text-anchor="middle">o</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="l" x="370.5" y="694.5" text-anchor="middle">l</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="v" x="331.962" y="672.25" text-anchor="middle">v</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="e" x="331.962" y="627.75" text-anchor="middle">e</text>
+      <circle class="minor-hub" cx="370.5" cy="650" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="370.5" y="650" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="370.5" cy="589" r="2.5" />
+    </g>
+    <g data-group="5">
+      <title>Группа 5 · a, n, d, x, j, m</title>
+      <path class="minor-sector" d="M 239.73 574.5 L 205.23 514.744 A 69 69 0 0 1 274.23 514.744 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 574.5 L 274.23 514.744 A 69 69 0 0 1 308.73 574.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 574.5 L 308.73 574.5 A 69 69 0 0 1 274.23 634.256 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 574.5 L 274.23 634.256 A 69 69 0 0 1 205.23 634.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 574.5 L 205.23 634.256 A 69 69 0 0 1 170.73 574.5 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 574.5 L 170.73 574.5 A 69 69 0 0 1 205.23 514.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="239.73" cy="574.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="a" x="239.73" y="530" text-anchor="middle">a</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="n" x="278.268" y="552.25" text-anchor="middle">n</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="d" x="278.268" y="596.75" text-anchor="middle">d</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="x" x="239.73" y="619" text-anchor="middle">x</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="j" x="201.192" y="596.75" text-anchor="middle">j</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="m" x="201.192" y="552.25" text-anchor="middle">m</text>
+      <circle class="minor-hub" cx="239.73" cy="574.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="239.73" y="574.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="239.73" cy="513.5" r="2.5" />
+    </g>
+    <g data-group="6">
+      <title>Группа 6 · l, i, g, z, q, r</title>
+      <path class="minor-sector" d="M 239.73 423.5 L 205.23 363.744 A 69 69 0 0 1 274.23 363.744 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 423.5 L 274.23 363.744 A 69 69 0 0 1 308.73 423.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 423.5 L 308.73 423.5 A 69 69 0 0 1 274.23 483.256 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 423.5 L 274.23 483.256 A 69 69 0 0 1 205.23 483.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 423.5 L 205.23 483.256 A 69 69 0 0 1 170.73 423.5 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 423.5 L 170.73 423.5 A 69 69 0 0 1 205.23 363.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="239.73" cy="423.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="l" x="239.73" y="379" text-anchor="middle">l</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="i" x="278.268" y="401.25" text-anchor="middle">i</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="g" x="278.268" y="445.75" text-anchor="middle">g</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="z" x="239.73" y="468" text-anchor="middle">z</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="q" x="201.192" y="445.75" text-anchor="middle">q</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="r" x="201.192" y="401.25" text-anchor="middle">r</text>
+      <circle class="minor-hub" cx="239.73" cy="423.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="239.73" y="423.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="239.73" cy="362.5" r="2.5" />
+    </g>
+    <circle class="major-hub" cx="370.5" cy="499" r="49" />
+    <text class="hub-label" x="370.5" y="494" text-anchor="middle">L</text>
+    <text class="hub-note" x="370.5" y="516" text-anchor="middle">группа</text>
+  </g>
+  <g data-layout="ru">
+    <rect class="card" x="725" y="146" width="657" height="620" rx="28" />
+    <text class="card-title" x="756" y="195">Русская</text>
+    <rect class="badge" x="1219" y="173" width="134" height="37" rx="18.5" />
+    <text class="badge-label" dominant-baseline="central" x="1286" y="192" text-anchor="middle">RU</text>
+    <path class="major-sector" d="M 1053.5 499 L 936.5 296.35 A 234 234 0 0 1 1170.5 296.35 Z" fill="#e4efff" />
+    <path class="major-sector" d="M 1053.5 499 L 1170.5 296.35 A 234 234 0 0 1 1287.5 499 Z" fill="#e0f3ed" />
+    <path class="major-sector" d="M 1053.5 499 L 1287.5 499 A 234 234 0 0 1 1170.5 701.65 Z" fill="#ededff" />
+    <path class="major-sector" d="M 1053.5 499 L 1170.5 701.65 A 234 234 0 0 1 936.5 701.65 Z" fill="#fbefdb" />
+    <path class="major-sector" d="M 1053.5 499 L 936.5 701.65 A 234 234 0 0 1 819.5 499 Z" fill="#f6eaf5" />
+    <path class="major-sector" d="M 1053.5 499 L 819.5 499 A 234 234 0 0 1 936.5 296.35 Z" fill="#e3f2f7" />
+    <circle class="major-outline" cx="1053.5" cy="499" r="234" />
+    <path class="top" d="M 1053.5 262 L 1047.74 254 L 1059.26 254 Z" />
+    <g data-group="1">
+      <title>Группа 1 · р, и, т, к, а, ч</title>
+      <path class="minor-sector" d="M 1053.5 348 L 1019 288.244 A 69 69 0 0 1 1088 288.244 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 1053.5 348 L 1088 288.244 A 69 69 0 0 1 1122.5 348 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1053.5 348 L 1122.5 348 A 69 69 0 0 1 1088 407.756 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 1053.5 348 L 1088 407.756 A 69 69 0 0 1 1019 407.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1053.5 348 L 1019 407.756 A 69 69 0 0 1 984.5 348 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 1053.5 348 L 984.5 348 A 69 69 0 0 1 1019 288.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="1053.5" cy="348" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="р" x="1053.5" y="303.5" text-anchor="middle">р</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="и" x="1092.038" y="325.75" text-anchor="middle">и</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="т" x="1092.038" y="370.25" text-anchor="middle">т</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="к" x="1053.5" y="392.5" text-anchor="middle">к</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="а" x="1014.962" y="370.25" text-anchor="middle">а</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="ч" x="1014.962" y="325.75" text-anchor="middle">ч</text>
+      <circle class="minor-hub" cx="1053.5" cy="348" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="1053.5" y="348" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="1053.5" cy="287" r="2.5" />
+    </g>
+    <g data-group="2">
+      <title>Группа 2 · п, я, с, ь, э, ц</title>
+      <path class="minor-sector" d="M 1184.27 423.5 L 1149.77 363.744 A 69 69 0 0 1 1218.77 363.744 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 1184.27 423.5 L 1218.77 363.744 A 69 69 0 0 1 1253.27 423.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1184.27 423.5 L 1253.27 423.5 A 69 69 0 0 1 1218.77 483.256 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 1184.27 423.5 L 1218.77 483.256 A 69 69 0 0 1 1149.77 483.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1184.27 423.5 L 1149.77 483.256 A 69 69 0 0 1 1115.27 423.5 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 1184.27 423.5 L 1115.27 423.5 A 69 69 0 0 1 1149.77 363.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="1184.27" cy="423.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="п" x="1184.27" y="379" text-anchor="middle">п</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="я" x="1222.808" y="401.25" text-anchor="middle">я</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="с" x="1222.808" y="445.75" text-anchor="middle">с</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="ь" x="1184.27" y="468" text-anchor="middle">ь</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="э" x="1145.732" y="445.75" text-anchor="middle">э</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="ц" x="1145.732" y="401.25" text-anchor="middle">ц</text>
+      <circle class="minor-hub" cx="1184.27" cy="423.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="1184.27" y="423.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="1184.27" cy="362.5" r="2.5" />
+    </g>
+    <g data-group="3">
+      <title>Группа 3 · о, л, е, ш, щ, г</title>
+      <path class="minor-sector" d="M 1184.27 574.5 L 1149.77 514.744 A 69 69 0 0 1 1218.77 514.744 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 1184.27 574.5 L 1218.77 514.744 A 69 69 0 0 1 1253.27 574.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1184.27 574.5 L 1253.27 574.5 A 69 69 0 0 1 1218.77 634.256 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 1184.27 574.5 L 1218.77 634.256 A 69 69 0 0 1 1149.77 634.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1184.27 574.5 L 1149.77 634.256 A 69 69 0 0 1 1115.27 574.5 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 1184.27 574.5 L 1115.27 574.5 A 69 69 0 0 1 1149.77 514.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="1184.27" cy="574.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="о" x="1184.27" y="530" text-anchor="middle">о</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="л" x="1222.808" y="552.25" text-anchor="middle">л</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="е" x="1222.808" y="596.75" text-anchor="middle">е</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="ш" x="1184.27" y="619" text-anchor="middle">ш</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="щ" x="1145.732" y="596.75" text-anchor="middle">щ</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="г" x="1145.732" y="552.25" text-anchor="middle">г</text>
+      <circle class="minor-hub" cx="1184.27" cy="574.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="1184.27" y="574.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="1184.27" cy="513.5" r="2.5" />
+    </g>
+    <g data-group="4">
+      <title>Группа 4 · б, м, ы, ё, ъ, ф</title>
+      <path class="minor-sector" d="M 1053.5 650 L 1019 590.244 A 69 69 0 0 1 1088 590.244 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 1053.5 650 L 1088 590.244 A 69 69 0 0 1 1122.5 650 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1053.5 650 L 1122.5 650 A 69 69 0 0 1 1088 709.756 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 1053.5 650 L 1088 709.756 A 69 69 0 0 1 1019 709.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 1053.5 650 L 1019 709.756 A 69 69 0 0 1 984.5 650 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 1053.5 650 L 984.5 650 A 69 69 0 0 1 1019 590.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="1053.5" cy="650" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="б" x="1053.5" y="605.5" text-anchor="middle">б</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="м" x="1092.038" y="627.75" text-anchor="middle">м</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="ы" x="1092.038" y="672.25" text-anchor="middle">ы</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="ё" x="1053.5" y="694.5" text-anchor="middle">ё</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="ъ" x="1014.962" y="672.25" text-anchor="middle">ъ</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="ф" x="1014.962" y="627.75" text-anchor="middle">ф</text>
+      <circle class="minor-hub" cx="1053.5" cy="650" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="1053.5" y="650" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="1053.5" cy="589" r="2.5" />
+    </g>
+    <g data-group="5">
+      <title>Группа 5 · д, а, в, х, ю, у</title>
+      <path class="minor-sector" d="M 922.73 574.5 L 888.23 514.744 A 69 69 0 0 1 957.23 514.744 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 922.73 574.5 L 957.23 514.744 A 69 69 0 0 1 991.73 574.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 922.73 574.5 L 991.73 574.5 A 69 69 0 0 1 957.23 634.256 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 922.73 574.5 L 957.23 634.256 A 69 69 0 0 1 888.23 634.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 922.73 574.5 L 888.23 634.256 A 69 69 0 0 1 853.73 574.5 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 922.73 574.5 L 853.73 574.5 A 69 69 0 0 1 888.23 514.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="922.73" cy="574.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="д" x="922.73" y="530" text-anchor="middle">д</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="а" x="961.268" y="552.25" text-anchor="middle">а</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="в" x="961.268" y="596.75" text-anchor="middle">в</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="х" x="922.73" y="619" text-anchor="middle">х</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="ю" x="884.192" y="596.75" text-anchor="middle">ю</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="у" x="884.192" y="552.25" text-anchor="middle">у</text>
+      <circle class="minor-hub" cx="922.73" cy="574.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="922.73" y="574.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="922.73" cy="513.5" r="2.5" />
+    </g>
+    <g data-group="6">
+      <title>Группа 6 · е, н, о, й, з, ж</title>
+      <path class="minor-sector" d="M 922.73 423.5 L 888.23 363.744 A 69 69 0 0 1 957.23 363.744 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 922.73 423.5 L 957.23 363.744 A 69 69 0 0 1 991.73 423.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 922.73 423.5 L 991.73 423.5 A 69 69 0 0 1 957.23 483.256 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 922.73 423.5 L 957.23 483.256 A 69 69 0 0 1 888.23 483.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 922.73 423.5 L 888.23 483.256 A 69 69 0 0 1 853.73 423.5 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 922.73 423.5 L 853.73 423.5 A 69 69 0 0 1 888.23 363.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="922.73" cy="423.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="е" x="922.73" y="379" text-anchor="middle">е</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="н" x="961.268" y="401.25" text-anchor="middle">н</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="о" x="961.268" y="445.75" text-anchor="middle">о</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="й" x="922.73" y="468" text-anchor="middle">й</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="з" x="884.192" y="445.75" text-anchor="middle">з</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="ж" x="884.192" y="401.25" text-anchor="middle">ж</text>
+      <circle class="minor-hub" cx="922.73" cy="423.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="922.73" y="423.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="922.73" cy="362.5" r="2.5" />
+    </g>
+    <circle class="major-hub" cx="1053.5" cy="499" r="49" />
+    <text class="hub-label" x="1053.5" y="494" text-anchor="middle">L</text>
+    <text class="hub-note" x="1053.5" y="516" text-anchor="middle">группа</text>
+  </g>
+  <g data-layout="symbols">
+    <rect class="card" x="42" y="792" width="657" height="620" rx="28" />
+    <text class="card-title" x="73" y="841">Символы</text>
+    <rect class="badge" x="536" y="819" width="134" height="37" rx="18.5" />
+    <text class="badge-label" dominant-baseline="central" x="603" y="838" text-anchor="middle">SYMBOLS</text>
+    <path class="major-sector" d="M 370.5 1145 L 253.5 942.35 A 234 234 0 0 1 487.5 942.35 Z" fill="#e4efff" />
+    <path class="major-sector" d="M 370.5 1145 L 487.5 942.35 A 234 234 0 0 1 604.5 1145 Z" fill="#e0f3ed" />
+    <path class="major-sector" d="M 370.5 1145 L 604.5 1145 A 234 234 0 0 1 487.5 1347.65 Z" fill="#ededff" />
+    <path class="major-sector" d="M 370.5 1145 L 487.5 1347.65 A 234 234 0 0 1 253.5 1347.65 Z" fill="#fbefdb" />
+    <path class="major-sector" d="M 370.5 1145 L 253.5 1347.65 A 234 234 0 0 1 136.5 1145 Z" fill="#f6eaf5" />
+    <path class="major-sector" d="M 370.5 1145 L 136.5 1145 A 234 234 0 0 1 253.5 942.35 Z" fill="#e3f2f7" />
+    <circle class="major-outline" cx="370.5" cy="1145" r="234" />
+    <path class="top" d="M 370.5 908 L 364.74 900 L 376.26 900 Z" />
+    <g data-group="1">
+      <title>Группа 1 · 1, 2, 3, 4, 5, 6</title>
+      <path class="minor-sector" d="M 370.5 994 L 336 934.244 A 69 69 0 0 1 405 934.244 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 994 L 405 934.244 A 69 69 0 0 1 439.5 994 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 994 L 439.5 994 A 69 69 0 0 1 405 1053.756 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 994 L 405 1053.756 A 69 69 0 0 1 336 1053.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 994 L 336 1053.756 A 69 69 0 0 1 301.5 994 Z" fill="#f0f6ff" />
+      <path class="minor-sector" d="M 370.5 994 L 301.5 994 A 69 69 0 0 1 336 934.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="370.5" cy="994" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="1" x="370.5" y="949.5" text-anchor="middle">1</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="2" x="409.038" y="971.75" text-anchor="middle">2</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="3" x="409.038" y="1016.25" text-anchor="middle">3</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="4" x="370.5" y="1038.5" text-anchor="middle">4</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="5" x="331.962" y="1016.25" text-anchor="middle">5</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="6" x="331.962" y="971.75" text-anchor="middle">6</text>
+      <circle class="minor-hub" cx="370.5" cy="994" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="370.5" y="994" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="370.5" cy="933" r="2.5" />
+    </g>
+    <g data-group="2">
+      <title>Группа 2 · 7, 8, 9, 0, %, &amp;</title>
+      <path class="minor-sector" d="M 501.27 1069.5 L 466.77 1009.744 A 69 69 0 0 1 535.77 1009.744 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 1069.5 L 535.77 1009.744 A 69 69 0 0 1 570.27 1069.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 1069.5 L 570.27 1069.5 A 69 69 0 0 1 535.77 1129.256 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 1069.5 L 535.77 1129.256 A 69 69 0 0 1 466.77 1129.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 1069.5 L 466.77 1129.256 A 69 69 0 0 1 432.27 1069.5 Z" fill="#eef9f5" />
+      <path class="minor-sector" d="M 501.27 1069.5 L 432.27 1069.5 A 69 69 0 0 1 466.77 1009.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="501.27" cy="1069.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="7" x="501.27" y="1025" text-anchor="middle">7</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="8" x="539.808" y="1047.25" text-anchor="middle">8</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="9" x="539.808" y="1091.75" text-anchor="middle">9</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="0" x="501.27" y="1114" text-anchor="middle">0</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="%" x="462.732" y="1091.75" text-anchor="middle">%</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="&amp;" x="462.732" y="1047.25" text-anchor="middle">&amp;</text>
+      <circle class="minor-hub" cx="501.27" cy="1069.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="501.27" y="1069.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="501.27" cy="1008.5" r="2.5" />
+    </g>
+    <g data-group="3">
+      <title>Группа 3 · #, $, {, }, _, |</title>
+      <path class="minor-sector" d="M 501.27 1220.5 L 466.77 1160.744 A 69 69 0 0 1 535.77 1160.744 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 1220.5 L 535.77 1160.744 A 69 69 0 0 1 570.27 1220.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 1220.5 L 570.27 1220.5 A 69 69 0 0 1 535.77 1280.256 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 1220.5 L 535.77 1280.256 A 69 69 0 0 1 466.77 1280.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 501.27 1220.5 L 466.77 1280.256 A 69 69 0 0 1 432.27 1220.5 Z" fill="#f5f4ff" />
+      <path class="minor-sector" d="M 501.27 1220.5 L 432.27 1220.5 A 69 69 0 0 1 466.77 1160.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="501.27" cy="1220.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="#" x="501.27" y="1176" text-anchor="middle">#</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="$" x="539.808" y="1198.25" text-anchor="middle">$</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="{" x="539.808" y="1242.75" text-anchor="middle">{</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="}" x="501.27" y="1265" text-anchor="middle">}</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="_" x="462.732" y="1242.75" text-anchor="middle">_</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="|" x="462.732" y="1198.25" text-anchor="middle">|</text>
+      <circle class="minor-hub" cx="501.27" cy="1220.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="501.27" y="1220.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="501.27" cy="1159.5" r="2.5" />
+    </g>
+    <g data-group="4">
+      <title>Группа 4 · [, ], (, ), ;, ^</title>
+      <path class="minor-sector" d="M 370.5 1296 L 336 1236.244 A 69 69 0 0 1 405 1236.244 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 1296 L 405 1236.244 A 69 69 0 0 1 439.5 1296 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 1296 L 439.5 1296 A 69 69 0 0 1 405 1355.756 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 1296 L 405 1355.756 A 69 69 0 0 1 336 1355.756 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 370.5 1296 L 336 1355.756 A 69 69 0 0 1 301.5 1296 Z" fill="#fff8ec" />
+      <path class="minor-sector" d="M 370.5 1296 L 301.5 1296 A 69 69 0 0 1 336 1236.244 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="370.5" cy="1296" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="[" x="370.5" y="1251.5" text-anchor="middle">[</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="]" x="409.038" y="1273.75" text-anchor="middle">]</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="(" x="409.038" y="1318.25" text-anchor="middle">(</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol=")" x="370.5" y="1340.5" text-anchor="middle">)</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol=";" x="331.962" y="1318.25" text-anchor="middle">;</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="^" x="331.962" y="1273.75" text-anchor="middle">^</text>
+      <circle class="minor-hub" cx="370.5" cy="1296" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="370.5" y="1296" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="370.5" cy="1235" r="2.5" />
+    </g>
+    <g data-group="5">
+      <title>Группа 5 · +, =, ", `, *, \</title>
+      <path class="minor-sector" d="M 239.73 1220.5 L 205.23 1160.744 A 69 69 0 0 1 274.23 1160.744 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 1220.5 L 274.23 1160.744 A 69 69 0 0 1 308.73 1220.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 1220.5 L 308.73 1220.5 A 69 69 0 0 1 274.23 1280.256 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 1220.5 L 274.23 1280.256 A 69 69 0 0 1 205.23 1280.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 1220.5 L 205.23 1280.256 A 69 69 0 0 1 170.73 1220.5 Z" fill="#fbf2fb" />
+      <path class="minor-sector" d="M 239.73 1220.5 L 170.73 1220.5 A 69 69 0 0 1 205.23 1160.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="239.73" cy="1220.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="+" x="239.73" y="1176" text-anchor="middle">+</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="=" x="278.268" y="1198.25" text-anchor="middle">=</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="&quot;" x="278.268" y="1242.75" text-anchor="middle">"</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol="`" x="239.73" y="1265" text-anchor="middle">`</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="*" x="201.192" y="1242.75" text-anchor="middle">*</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="\" x="201.192" y="1198.25" text-anchor="middle">\</text>
+      <circle class="minor-hub" cx="239.73" cy="1220.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="239.73" y="1220.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="239.73" cy="1159.5" r="2.5" />
+    </g>
+    <g data-group="6">
+      <title>Группа 6 · &lt;, &gt;, -, :, /, @</title>
+      <path class="minor-sector" d="M 239.73 1069.5 L 205.23 1009.744 A 69 69 0 0 1 274.23 1009.744 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 1069.5 L 274.23 1009.744 A 69 69 0 0 1 308.73 1069.5 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 1069.5 L 308.73 1069.5 A 69 69 0 0 1 274.23 1129.256 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 1069.5 L 274.23 1129.256 A 69 69 0 0 1 205.23 1129.256 Z" fill="#ffffff" />
+      <path class="minor-sector" d="M 239.73 1069.5 L 205.23 1129.256 A 69 69 0 0 1 170.73 1069.5 Z" fill="#edf7fb" />
+      <path class="minor-sector" d="M 239.73 1069.5 L 170.73 1069.5 A 69 69 0 0 1 205.23 1009.744 Z" fill="#ffffff" />
+      <circle class="minor-outline" cx="239.73" cy="1069.5" r="69" />
+      <text class="character" dominant-baseline="central" data-choice="1" data-symbol="&lt;" x="239.73" y="1025" text-anchor="middle">&lt;</text>
+      <text class="character" dominant-baseline="central" data-choice="2" data-symbol="&gt;" x="278.268" y="1047.25" text-anchor="middle">&gt;</text>
+      <text class="character" dominant-baseline="central" data-choice="3" data-symbol="-" x="278.268" y="1091.75" text-anchor="middle">-</text>
+      <text class="character" dominant-baseline="central" data-choice="4" data-symbol=":" x="239.73" y="1114" text-anchor="middle">:</text>
+      <text class="character" dominant-baseline="central" data-choice="5" data-symbol="/" x="201.192" y="1091.75" text-anchor="middle">/</text>
+      <text class="character" dominant-baseline="central" data-choice="6" data-symbol="@" x="201.192" y="1047.25" text-anchor="middle">@</text>
+      <circle class="minor-hub" cx="239.73" cy="1069.5" r="10" />
+      <text class="right-hub" dominant-baseline="central" x="239.73" y="1069.5" text-anchor="middle">R</text>
+      <circle class="minor-top" cx="239.73" cy="1008.5" r="2.5" />
+    </g>
+    <circle class="major-hub" cx="370.5" cy="1145" r="49" />
+    <text class="hub-label" x="370.5" y="1140" text-anchor="middle">L</text>
+    <text class="hub-note" x="370.5" y="1162" text-anchor="middle">группа</text>
+  </g>
+  <g data-layout="b">
+    <rect class="card" x="725" y="792" width="657" height="620" rx="28" />
+    <text class="card-title" x="756" y="841">Быстрые знаки</text>
+    <text class="card-detail" x="757" y="868">Знак выбирается любым стиком</text>
+    <rect class="badge" x="1199" y="819" width="154" height="37" rx="18.5" />
+    <text class="badge-label" dominant-baseline="central" x="1276" y="838" text-anchor="middle">УДЕРЖИВАТЬ B</text>
+    <path class="major-sector" d="M 1053.5 1145 L 936.5 942.35 A 234 234 0 0 1 1170.5 942.35 Z" fill="#e4efff" />
+    <path class="major-sector" d="M 1053.5 1145 L 1170.5 942.35 A 234 234 0 0 1 1287.5 1145 Z" fill="#e0f3ed" />
+    <path class="major-sector" d="M 1053.5 1145 L 1287.5 1145 A 234 234 0 0 1 1170.5 1347.65 Z" fill="#ededff" />
+    <path class="major-sector" d="M 1053.5 1145 L 1170.5 1347.65 A 234 234 0 0 1 936.5 1347.65 Z" fill="#fbefdb" />
+    <path class="major-sector" d="M 1053.5 1145 L 936.5 1347.65 A 234 234 0 0 1 819.5 1145 Z" fill="#f6eaf5" />
+    <path class="major-sector" d="M 1053.5 1145 L 819.5 1145 A 234 234 0 0 1 936.5 942.35 Z" fill="#e3f2f7" />
+    <circle class="major-outline" cx="1053.5" cy="1145" r="234" />
+    <path class="top" d="M 1053.5 908 L 1047.74 900 L 1059.26 900 Z" />
+    <circle class="quick-ring" cx="1053.5" cy="1145" r="190" />
+    <text class="space" dominant-baseline="central" data-choice="1" data-symbol=" " x="1053.5" y="1006" text-anchor="middle">пробел</text>
+    <text class="quick-character" dominant-baseline="central" data-choice="2" data-symbol="." x="1173.878" y="1067.5" text-anchor="middle">.</text>
+    <text class="quick-label" x="1173.878" y="1107.5" text-anchor="middle">точка</text>
+    <text class="quick-character" dominant-baseline="central" data-choice="3" data-symbol="?" x="1173.878" y="1206.5" text-anchor="middle">?</text>
+    <text class="quick-label" x="1173.878" y="1246.5" text-anchor="middle">вопрос</text>
+    <text class="quick-character" dominant-baseline="central" data-choice="4" data-symbol="!" x="1053.5" y="1276" text-anchor="middle">!</text>
+    <text class="quick-label" x="1053.5" y="1316" text-anchor="middle">восклицание</text>
+    <text class="quick-character" dominant-baseline="central" data-choice="5" data-symbol="'" x="933.122" y="1206.5" text-anchor="middle">'</text>
+    <text class="quick-label" x="933.122" y="1246.5" text-anchor="middle">апостроф</text>
+    <text class="quick-character" dominant-baseline="central" data-choice="6" data-symbol="," x="933.122" y="1067.5" text-anchor="middle">,</text>
+    <text class="quick-label" x="933.122" y="1107.5" text-anchor="middle">запятая</text>
+    <circle class="major-hub" cx="1053.5" cy="1145" r="52" />
+    <text class="hub-label" x="1053.5" y="1140" text-anchor="middle">B</text>
+    <text class="hub-note" x="1053.5" y="1162" text-anchor="middle">любой стик</text>
+  </g>
+</svg>

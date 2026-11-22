@@ -1,0 +1,151 @@
+initial_mode: normal
+
+modes:
+  normal:
+    mappings:
+      - input: lb
+        action:
+          plugin: builtin_primitives
+          type: change_mode
+          arguments:
+            - mouse
+      - input: ls # отклонение левого стика за порог
+        action:
+          plugin: builtin_primitives
+          type: change_mode
+          arguments:
+            - text
+      - input: rs # отклонение правого стика за порог
+        action:
+          plugin: builtin_primitives
+          type: change_mode
+          arguments:
+            - text
+
+  mouse:
+    mappings:
+      - input: rt
+        action:
+          plugin: builtin_primitives
+          type: change_mode
+          arguments: [normal]
+    buttons:
+      lb:
+        behavior:
+          plugin: mouse
+          type: left_hold
+      rb:
+        behavior:
+          plugin: mouse
+          type: right_hold
+    sticks:
+      left:
+        behavior:
+          plugin: mouse
+          type: scroll
+      right:
+        behavior:
+          plugin: mouse
+          type: pointer
+
+  text:
+    mappings:
+      - input: rt
+        action:
+          plugin: builtin_primitives
+          type: change_mode
+          arguments: [normal]
+      - input: lb
+        action:
+          plugin: chord_text
+          type: next_keymap
+          arguments: []
+      - input: dpad_left
+        action:
+          plugin: builtin_primitives
+          type: key
+          arguments: [left]
+      - input: dpad_right
+        action:
+          plugin: builtin_primitives
+          type: key
+          arguments: [right]
+      - input: dpad_up
+        action:
+          plugin: builtin_primitives
+          type: key
+          arguments: [up]
+      - input: dpad_down
+        action:
+          plugin: builtin_primitives
+          type: key
+          arguments: [down]
+      - input: x
+        action:
+          plugin: builtin_primitives
+          type: key
+          arguments: [backspace]
+    buttons:
+      b:
+        behavior:
+          plugin: chord_text
+          type: modifier_key
+      rb:
+        behavior:
+          plugin: chord_text
+          type: uppercase
+    sticks:
+      left:
+        behavior:
+          plugin: chord_text
+          type: group
+      right:
+        behavior:
+          plugin: chord_text
+          type: choice
+
+mouse:
+  pointer:
+    sensitivity: 1000
+    acceleration: 1.5
+    dead_zone: 0.25
+  scroll:
+    sensitivity: 24
+    acceleration: 1
+    dead_zone: 0.25
+
+chord_text:
+  uppercase:
+    hold_ms: 250
+  sectors:
+    type: exact # в adaptive число секторов зависит от выбранной таблицы и группы
+    groups: 6
+    choices: 6
+  # Направления идут от верхнего по часовой стрелке.
+  modifier_groups:
+    b: " .?!',"
+  keymaps:
+    en:
+      groups:
+        - uwbyfo
+        - thesin
+        - carpkd
+        - stolve
+        - andxjm
+        - ligzqr
+    ru:
+      groups:
+        - риткач
+        - пясьэц
+        - олешщг
+        - бмыёъф
+        - давхюу
+        - енойзж
+    symbols:
+      groups:
+        - "123456"
+        - "7890%&"
+        - "#${}_|"
+        - "[]();^"
+        - "+=\"`*\\"
+        - "<>-:/@"
